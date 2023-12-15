@@ -145,3 +145,13 @@ footer {
         padding-left: 36px;
     }
 }
+@media only screen and (max-height: 700px) {
+    body {
+        /* Example: Adjust body font size for smaller screens */
+        font-size: 10px;
+    }
+    footer {
+       position:fixed;
+       bottom:0% ;
+    }
+}
